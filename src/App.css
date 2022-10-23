@@ -1,0 +1,38 @@
+form {
+  border-color: darkgrey;
+  border-radius: 7px;
+  border-width: 2px;
+  border-style: solid;
+  padding: 1rem;
+}
+
+.label-text {
+  color: darkgrey;
+  font-size: 1.125rem;
+}
+
+.error {
+  color: red;
+  font-size: 0.75rem;
+  min-height: 1rem;
+}
+
+.btn {
+  border-color: deepskyblue;
+  border-radius: 7px;
+  border-width: 2px;
+  border-style: solid;
+  background-color: deepskyblue;
+  color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.btn:hover {
+  border-color: deepskyblue;
+  background-color: white;
+  color: deepskyblue;
+}
+
+.form-btn-container {
+  display: grid;
+}
